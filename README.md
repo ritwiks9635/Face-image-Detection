@@ -1,6 +1,6 @@
-# **YOLO Object Detection with KerasCV**
-This project implements YOLOv8 Object Detection using KerasCV with a Gradio or Streamlit interface for real-time inference.
-
+# **Face Features Detector with KerasCV**
+This project implements YOLOv8 Object Detection using KerasCV with a Gradio interface for real-time inference.
+---
 ### **📁 Project Structure**
 ```
 face_features_app/
