@@ -3,7 +3,7 @@ This project implements YOLOv8 Object Detection using KerasCV with a Gradio or S
 
 ### **📁 Project Structure**
 
-yolo_project/
+face_features_app/
 │── backend/
 │   ├── detect.py        # Object detection inference script  
 │   ├── model/           # Stores trained YOLO model & checkpoints  
