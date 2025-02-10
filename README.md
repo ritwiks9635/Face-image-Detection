@@ -2,7 +2,7 @@
 This project implements YOLOv8 Object Detection using KerasCV with a Gradio or Streamlit interface for real-time inference.
 
 ### **📁 Project Structure**
-
+```
 face_features_app/
 │── backend/
 │   ├── detect.py        # Object detection inference script  
@@ -13,4 +13,4 @@ face_features_app/
 │── Dockerfile           # Docker setup for deployment  
 │── requirements.txt     # Dependencies for running the project  
 │── README.md            # Project documentation  
-
+```
