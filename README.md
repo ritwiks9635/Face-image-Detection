@@ -1,13 +1,20 @@
 # **Face Features Detector with KerasCV**
 This project implements YOLOv8 Object Detection using KerasCV with a Gradio interface for real-time inference.
+
 ---
 
-🛠️ Features
+### 🛠️ Features
+
 ✔ YOLOv8 Model: Uses keras_cv.models.YOLOV8Detector
+
 ✔ Real-time Object Detection: Bounding boxes with labels & confidence scores
+
 ✔ Gradio/Streamlit UI: Upload images and run detection in a web interface
+
 ✔ Dockerized Deployment: Ready for containerized execution
+
 ✔ GitHub Codespaces Compatible: Seamless cloud-based deployment
+
 ---
 
 ### **📁 Project Structure**
@@ -56,9 +63,12 @@ docker build -t face_features_app .
 docker run -p 7860:7860 face_features_app
 ```
 This will start the Gradio UI at http://localhost:7860.
+
 ---
 ### **💡 Example Usage**
+
 Upload an image, and the model will detect objects, draw bounding boxes, and display predictions.
+
 ---
 
 ### **📝 License**
