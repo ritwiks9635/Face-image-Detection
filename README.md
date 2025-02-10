@@ -49,27 +49,20 @@ python frontend/app.py
 ### **📦 Docker Deployment**
 ### 1️⃣ Build the Docker Image
 ```
-docker build -t yolo-detection .
+docker build -t face_features_app .
 ```
 2️⃣ Run the Container
-bash
-Copy code
-docker run -p 7860:7860 yolo-detection
-This will start the Gradio/Streamlit UI at http://localhost:7860.
-
-💡 Example Usage
+```
+docker run -p 7860:7860 face_features_app
+```
+This will start the Gradio UI at http://localhost:7860.
+---
+### **💡 Example Usage**
 Upload an image, and the model will detect objects, draw bounding boxes, and display predictions.
+---
 
-
-📝 License
+### **📝 License**
 This project is MIT Licensed.
-
-🔗 Credits & References
-KerasCV YOLOv8 Docs
-Gradio Documentation
-Streamlit Documentation
-This README.md is now formatted for GitHub, with clear sections, installation steps, and deployment instructions! 🚀
-
 
 
 
